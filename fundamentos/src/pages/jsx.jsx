@@ -1,3 +1,4 @@
+import Layout from "../components/Layout"
 export default function Jsx() {
 
            
@@ -8,9 +9,12 @@ export default function Jsx() {
     }
 
     return (
+       <Layout title="Entendendo o JSX">
+
         <div>
             {titulo}
             {subtitulo()}
         </div>
+        </Layout>
     )
 }
