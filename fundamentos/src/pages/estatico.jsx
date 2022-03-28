@@ -11,7 +11,7 @@ export function getStaticProps() {
 export default function Estatico(props) {
     return (
         <Layout title="Conteúdo Estático" >
-            <div>{props.numero}</div>
+            <div>{props.numero}</div> 
         </Layout>
     )
 }
