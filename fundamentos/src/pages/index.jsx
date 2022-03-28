@@ -15,6 +15,7 @@ export default function Home() {
             <Navigator text="Navegação #01" destiny="/navigator" collor="green" />
             <Navigator text="Navegação #02" destiny="/client/sp/321"/>
             <Navigator text="Componente com Estado" destiny="/state" collor="green" />
+            <Navigator text="Integração com API #01" destiny="/integracao_1" />
         </div>
     )
 }
